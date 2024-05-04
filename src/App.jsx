@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="bg-[#242424] text-white h-screen">
+    <div className="bg-[#242424] text-white min-h-screen">
       <h1 className="text-6xl text-center mb-8">To-Do List</h1>
       <div className="flex flex-col justify-center items-center">
         <Form onAddTask={handleAddTask} />
